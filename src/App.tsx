@@ -1,20 +1,17 @@
 /* Imports */
 import { useEffect, useState } from "react";
 import { GameComponent } from "./components/Game/Game.component";
+import { DB } from "./db";
 
 /* Styles */
 import "./App.css";
 
 function App() {
-  let [solution, setSolution] = useState(null);
+  let [solution, setSolution] = useState<any>(null);
 
   useEffect(() => {
-    fetch("http://localhost:3001/solutions")
-      .then((res) => res.json())
-      .then((json) => {
-        const randomSolution = json[Math.floor(Math.random() * json.length)];
-        setSolution(randomSolution.word);
-      });
+    const randomSolution = DB[Math.floor(Math.random() * DB.length)];
+    setSolution(randomSolution.word);
   }, [setSolution]);
 
   return (
