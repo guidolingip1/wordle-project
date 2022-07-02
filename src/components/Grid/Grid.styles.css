@@ -1,0 +1,7 @@
+.Grid-container {
+  text-align: center;
+  line-height: 64px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+}
