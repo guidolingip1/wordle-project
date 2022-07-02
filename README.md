@@ -1,7 +1,7 @@
 ### Projeto Wordle
 
-### TESTE AQUI -> https://github-cards-project.herokuapp.com
+### TESTE AQUI -> https://wordle-project1.herokuapp.com
 
 ## Como ficou?
 
-![cards github](https://github.com/guidolingip1/bootcamp-impulso/blob/master/wordle-project/resultado.gif)
+![cards github](https://github.com/guidolingip1/wordle-project/blob/master/resultado.gif)
